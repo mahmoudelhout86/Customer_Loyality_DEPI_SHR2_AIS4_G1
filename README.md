@@ -5,6 +5,7 @@ This project focuses on analyzing customer loyalty using data from the **Elo Mer
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Table of Contents
+
 1. Project Overview
 2. Installation
 3. Data Sources
@@ -14,10 +15,13 @@ This project focuses on analyzing customer loyalty using data from the **Elo Mer
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1. Project Overview
+
 1.1 Objective
+
 The primary objective of this project is to predict customer loyalty scores, which will help Elo (a Brazilian payment brand) recommend merchant categories to its users and enhance customer satisfaction.
 
 1.2 Scope
+
 - Data preprocessing and feature engineering.
 - Analyze transactional data to understand customer behavior.
 - Visualization of key trends and insights.
@@ -32,7 +36,7 @@ The primary objective of this project is to predict customer loyalty scores, whi
 ---------------------------------------------------------------------------------------------------------------------------------------------------------   
 
 3. Data Sources
-Dataset Description
+
 The dataset is sourced from the Elo Merchant Category Recommendation competition on Kaggle.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------   
