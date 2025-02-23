@@ -8,6 +8,7 @@ This project focuses on analyzing customer loyalty using data from the **Elo Mer
 1. Project Overview
 2. Installation
 3. Data Sources
+4. Dataset Overview
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -32,14 +33,42 @@ The primary objective of this project is to predict customer loyalty scores, whi
 
 3. Data Sources
 Dataset Description
-The dataset is sourced from the Elo Merchant Category Recommendation competition on Kaggle. It includes the following files:
+The dataset is sourced from the Elo Merchant Category Recommendation competition on Kaggle.
 
-train.csv: Contains customer IDs and their corresponding loyalty scores (target variable).
+---------------------------------------------------------------------------------------------------------------------------------------------------------   
 
-test.csv: Contains customer IDs for which loyalty scores need to be predicted.
+4. Dataset Overview
 
-historical_transactions.csv: Historical transaction data for each customer.
+The dataset consists of several files:
 
-merchants.csv: Information about the merchants.
+train.csv: Contains the training data with the target variable (target).
 
-new_merchant_transactions.csv: Transactions from new merchants.   
+card_id: Unique identifier for each customer card.
+
+target: The target variable (loyalty score) to predict.
+
+test.csv: Contains the test data (without the target variable).
+
+card_id: Unique identifier for each customer card.
+
+historical_transactions.csv: Contains historical transaction data for each card.
+
+card_id: Unique identifier for the customer card.
+
+purchase_date: Date and time of the transaction.
+
+purchase_amount: Amount spent in the transaction.
+
+merchant_category_id: Category of the merchant.
+
+merchant_id: Unique identifier for the merchant.
+
+Other features like city_id, state_id, subsector_id, etc.
+
+new_merchant_transactions.csv: Contains transactions from new merchants (similar structure to historical_transactions.csv).
+
+merchants.csv: Contains additional information about merchants.
+
+merchant_id: Unique identifier for the merchant.
+
+merchant_category_id, merchant_group_id, subsector_id, etc.
