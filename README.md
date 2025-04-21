@@ -11,7 +11,7 @@ This project focuses on analyzing customer loyalty using data from the **Elo Mer
 3. Data Sources
 4. Dataset Overview
 5. Technologies Used
-6. Team Members
+6. Team Members & Contact
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -40,13 +40,13 @@ The primary objective of this project is to predict customer loyalty scores, whi
 
 To run this project locally, follow these steps:
 
-   ### a. Clone the Repository to your local storage
+   a. Clone the Repository to your local storage
 
-   ### b. Set Up a Python Environment.
+   b. Set Up a Python Environment.
 
-   ### c. Install Dependencies pandas like numpy, pandas, scikit-learn, matplotlib, seaborn and others.
+   c. Install Dependencies pandas like numpy, pandas, scikit-learn, matplotlib, seaborn and others.
 
-   ### d. Handle Large Files: The dataset includes large CSV files (e.g., historical_transactions.csv ~2.8 GB), you can download all data from link in the data source.
+   d. Handle Large Files: The dataset includes large CSV files (e.g., historical_transactions.csv ~2.8 GB), you can download all data from link in the data source.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------   
@@ -111,10 +111,10 @@ This file contains the additional information of the merchants involved in the t
 
 ## 6. Team Members:
 
-   ### a. Mahmoud Emam Elhout
+   a. Mahmoud Emam Elhout,         ma7moudel7out@gmail.com 
 
-   ### b. Tarek Ahmed Ali
+   b. Tarek Ahmed Ali              Tareahme@gmail.com 
 
-   ### c. Hazem Mohamed Samy
+   c. Hazem Mohamed Samy           hazemmuhammedd1@gmail.com
 
-   ### d. Asmaa Gamal AbdElnasser
+   d. Asmaa Gamal AbdElnasser      gasmaa188@outlook.com
