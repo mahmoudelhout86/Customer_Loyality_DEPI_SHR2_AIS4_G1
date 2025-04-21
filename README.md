@@ -16,13 +16,13 @@ This project focuses on analyzing customer loyalty using data from the **Elo Mer
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1. Project Overview
+##1. Project Overview
 
-    1.1 Objective
+    ###1.1 Objective
 
 The primary objective of this project is to predict customer loyalty scores, which will help Elo (a Brazilian payment brand) recommend merchant categories to its users and enhance customer satisfaction.
 
-    1.2 Scope
+    ###1.2 Scope
 
 - Data preprocessing and feature engineering.
 
@@ -36,65 +36,64 @@ The primary objective of this project is to predict customer loyalty scores, whi
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-2. Installation
+##2. Installation
 
 To run this project locally, follow these steps:
 
-   a. Clone the Repository to your local storage
+   ###a. Clone the Repository to your local storage
 
-   b. Set Up a Python Environment.
+   ###b. Set Up a Python Environment.
 
-   c. Install Dependencies pandas like numpy, pandas, scikit-learn, matplotlib, seaborn and others.
+   ###c. Install Dependencies pandas like numpy, pandas, scikit-learn, matplotlib, seaborn and others.
 
-   d. Handle Large Files: The dataset includes large CSV files (e.g., historical_transactions.csv ~2.8 GB), you can download all data from link in the data source.
+   ###d. Handle Large Files: The dataset includes large CSV files (e.g., historical_transactions.csv ~2.8 GB), you can download all data from link in the data source.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------   
 
-3. Data Sources
+##3. Data Sources
 
 The dataset is sourced from the Elo Merchant Category Recommendation competition on Kaggle.  https://www.kaggle.com/c/elo-merchant-category-recommendation/data
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------   
 
-4. Dataset Overview
+##4. Dataset Overview
 
 The data provided contains the transaction data of up to 3 months for each card ID. It also contains the merchant data based on the merchants involved in these transactions.The dataset consists of several files:
 
-   a. Data_Dictionary.xlsx:
+   ###a. Data_Dictionary.xlsx:
 
 This file contains the datafield description for each csv file and descriptions for each of the columns.
 
-   b. train.csv and test.csv:
+   ###b. train.csv and test.csv:
 
 These files contain the Card IDs(card_id) and the information about the cards.
 
 They also contain the target variable(loyalty score) that needs to be predicted. 
 
-
-   c. historical_transactions.csv and new_merchant_transactions.csv:
+   ###c. historical_transactions.csv and new_merchant_transactions.csv:
  
 These files contain the transactions data. 
 
 They contain information about transactions for each card. 
 
 
-   d. new_merchant_transactions.csv:
+   ###d. new_merchant_transactions.csv:
 
 The same data in historical_transactions.csv
 
-   e. merchants.csv:  
+   ###e. merchants.csv:  
 
 This file contains the additional information of the merchants involved in the transactions.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------   
 
-5. Technologies Used:
+##5. Technologies Used:
 
-   a. Python (Numpy, Pandas, Scikit-learn, TensorFlow, SpaCy)
+   ###a. Python (Numpy, Pandas, Scikit-learn, TensorFlow, SpaCy)
 
-   b. Machine Learning (ML) models, the basic regression algorithms for training the model which are as follows:
+   ###b. Machine Learning (ML) models, the basic regression algorithms for training the model which are as follows:
                 · Linear Regression
                 · Ridge
                 · Lasso
@@ -106,16 +105,16 @@ This file contains the additional information of the merchants involved in the t
                 · XG Boost
                 · KNN
 
-   c. GitHub Projects (for task management).
+   ###c. GitHub Projects (for task management).
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------   
 
-6. Team Members:
+##6. Team Members:
 
-   a. Mahmoud Emam Elhout
+   ###a. Mahmoud Emam Elhout
 
-   b. Tarek Ahmed Ali
+   ###b. Tarek Ahmed Ali
 
-   c. Hazem Mohamed Samy
+   ###c. Hazem Mohamed Samy
 
-   d. Asmaa Gamal AbdElnasser
+   ###d. Asmaa Gamal AbdElnasser
