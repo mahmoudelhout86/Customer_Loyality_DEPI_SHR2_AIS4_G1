@@ -86,6 +86,8 @@ The same data in historical_transactions.csv
 
 This file contains the additional information of the merchants involved in the transactions.
 
+Due to the dataset's size, we split the exploratory analysis across three notebooks, then performed the modeling phase into a single notebook.
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------   
 
